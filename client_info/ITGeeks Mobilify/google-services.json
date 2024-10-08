@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "814514866741",
+    "project_id": "appbuilderpublic",
+    "storage_bucket": "appbuilderpublic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814514866741:android:7e6f35ebb370f46fd07f7c",
+        "android_client_info": {
+          "package_name": "com.itgeeks.mobilify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClYCGM0yfyphu2-C29HsJDHkO-7n4TbaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814514866741:android:11434731bd01c6b6d07f7c",
+        "android_client_info": {
+          "package_name": "com.itgeeks.shopifyappbuilder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClYCGM0yfyphu2-C29HsJDHkO-7n4TbaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

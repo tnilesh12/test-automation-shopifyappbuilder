@@ -1,0 +1,42 @@
+
+We need to change
+* APP-DOMAIN in config file.
+* firebase setup (google json)
+* package name
+* logo 
+
+
+Use this commands :
+1.  chmod +x modify_contents.sh
+2.  ./modify_contents.sh "app_name" "new_package_name" "current_package_name"
+
+than it will generate the build file.
+
+
+
+
+
+//Not in use-----
+1.  The App Logo for each client is kept at assets/{CLIENT_APP_NAME}/icon_name.png
+
+2.  The google-services.json file for each client is kept at assets/{CLIENT_APP_NAME}/google-services.json which will be moved to shopifyappbuilder/android/app/google-services.json
+
+3.  The config file for each client is kept at assets/{CLIENT_APP_NAME}/app_settings.json which will be moved to shopifyappbuilder/assets/cfg/app_settings.json
+
+4.  The Info.plist for each client is kept at assets/{CLIENT_APP_NAME}/Info.plist which will be moved to shopifyappbuilder/ios/Runner/Info.plist
+
+
+
+Use this commands :
+1.  chmod +x modify_contents.sh
+2.  ./modify_contents.sh <app_name> <new_package_name> <current_package_name>"
+
+
+
+than it will generate the build file.
+
+
+
+
+
+

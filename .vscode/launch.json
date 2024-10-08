@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "shopifyappbuilder",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "shopifyappbuilder (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "shopifyappbuilder (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "ShopifyCode",
+            "cwd": "ShopifyCode",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "ShopifyCode (profile mode)",
+            "cwd": "ShopifyCode",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ShopifyCode (release mode)",
+            "cwd": "ShopifyCode",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Theme1",
+            "cwd": "Theme1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Theme1 (profile mode)",
+            "cwd": "Theme1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Theme1 (release mode)",
+            "cwd": "Theme1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Theme2",
+            "cwd": "Theme2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Theme2 (profile mode)",
+            "cwd": "Theme2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Theme2 (release mode)",
+            "cwd": "Theme2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Theme3",
+            "cwd": "Theme3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Theme3 (profile mode)",
+            "cwd": "Theme3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Theme3 (release mode)",
+            "cwd": "Theme3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Theme4",
+            "cwd": "Theme4",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Theme4 (profile mode)",
+            "cwd": "Theme4",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Theme4 (release mode)",
+            "cwd": "Theme4",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+# dart run package_rename
+package_rename_config:
+  android:
+    app_name: ITGeeks Mobilify
+    package_name: com.itgeeks.mobilify
+    override_old_package: com.itg.golime
+
+  ios:
+    app_name: ITGeeks Mobilify
+    bundle_name: com.itgeeks.mobilify
+    package_name: com.itgeeks.mobilify
+
+  web:
+    app_name: ITGeeks Mobilify
+    description: com.itgeeks.mobilify
+
+  linux:
+    app_name: ITGeeks Mobilify
+    package_name: com.itgeeks.mobilify
+    exe_name: renamedemo-linux-x64
+
+  windows:
+    app_name: ITGeeks Mobilify
+    organization: Itgeeks
+    copyright_notice: Copyright © 2023 Itgeeks. All rights reserved.
+    exe_name: renamedemo-win32
+
+  macos:
+    app_name: ITGeeks Mobilify
+    package_name: com.itgeeks.mobilify
+    copyright_notice: Copyright © 2023 Itgeeks. All rights reserved.

@@ -1,0 +1,31 @@
+# dart run package_rename
+package_rename_config:
+  android:
+    app_name: APP_NAME
+    package_name: APP_PACKAGE_NAME
+    override_old_package: CURRENT_APP_PACKAGE_NAME
+
+  ios:
+    app_name: APP_NAME
+    bundle_name: APP_PACKAGE_NAME
+    package_name: APP_PACKAGE_NAME
+
+  web:
+    app_name: APP_NAME
+    description: APP_PACKAGE_NAME
+
+  linux:
+    app_name: APP_NAME
+    package_name: APP_PACKAGE_NAME
+    exe_name: renamedemo-linux-x64
+
+  windows:
+    app_name: APP_NAME
+    organization: Itgeeks
+    copyright_notice: Copyright © 2023 Itgeeks. All rights reserved.
+    exe_name: renamedemo-win32
+
+  macos:
+    app_name: APP_NAME
+    package_name: APP_PACKAGE_NAME
+    copyright_notice: Copyright © 2023 Itgeeks. All rights reserved.

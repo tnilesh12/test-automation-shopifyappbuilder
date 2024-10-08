@@ -1,0 +1,185 @@
+{
+    "title": "",
+    "description": "",
+    "fields": [
+        {
+            "type": "Input",
+            "InputData": {
+                "suffixIcon": "",
+                "prefixIcon": "",
+                "labelVisibility": "",
+                "key": "input1",
+                "label": "flutter22",
+                "placeholder": "",
+                "value": "",
+                "required": false,
+                "borderRadius": 12.0,
+                "borderType": "outlined",
+                "keyboardType": "text"
+            }
+        },
+        {
+            "type": "Password",
+            "InputData": {
+                "key": "password1",
+                "label": "Password",
+                "borderRadius": 12.0,
+                "borderType": "outlined",
+                "required": true,
+                "keyboardType": "password",
+                "placeholder": "flutter2332",
+                "value": ""
+            }
+        },
+        {
+            "type": "Email",
+            "InputData": {
+                "key": "email1",
+                "label": "Email test",
+                "placeholder": "test",
+                "borderRadius": 12.0,
+                "borderType": "outlined",
+                "keyboardType": "emailAddress",
+                "value": "",
+                "required": true
+            }
+        },
+        {
+            "type": "TextArea",
+            "InputData": {
+                "key": "tareatext1",
+                "label": "TextArea test",
+                "borderRadius": 12.0,
+                "borderType": "outlined",
+                "placeholder": "test",
+                "keyboardType": "text",
+                "value": "",
+                "required": true
+            }
+        },
+        {
+            "type": "RadioButton",
+            "RadioData": {
+                "key": "radiobutton1",
+                "label": "Radio Button tests",
+                "value": 2,
+                "RadioItems": [
+                    {
+                        "label": "product 1",
+                        "value": 1
+                    },
+                    {
+                        "label": "product 2",
+                        "value": 2
+                    },
+                    {
+                        "label": "product 3",
+                        "value": 3
+                    },
+                    {
+                        "label": "product 1",
+                        "value": 4
+                    },
+                    {
+                        "label": "product 2",
+                        "value": 5
+                    },
+                    {
+                        "label": "product 3",
+                        "value": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Input",
+            "InputData": {
+                "key": "input1",
+                "label": "flutter22",
+                "placeholder": "flutter22",
+                "value": "",
+                "required": true,
+                "borderRadius": 12.0,
+                "borderType": "outlined",
+                "keyboardType": "text"
+            }
+        },
+        {
+            "type": "Switch",
+            "SwitchData": {
+                "key": "switch1",
+                "label": "Switch test",
+                "value": "false"
+            }
+        },
+        {
+            "type": "Checkbox",
+            "CheckBoxData": {
+                "key": "checkbox1",
+                "label": "Checkbox test",
+                "CheckBoxItems": [
+                    {
+                        "label": "product 1",
+                        "value": true,
+                        "required": true
+                    },
+                    {
+                        "label": "product 2",
+                        "value": false
+                    },
+                    {
+                        "label": "product 3",
+                        "value": false
+                    },
+                    {
+                        "label": "product 4",
+                        "value": false
+                    },
+                    {
+                        "label": "product 5",
+                        "value": false,
+                        "required": true
+                    },
+                    {
+                        "label": "product 6",
+                        "value": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Select",
+            "SelectData": {
+                "key": "select1",
+                "label": "Select test",
+                "required": true,
+                "borderRadius": 12.0,
+                "borderType": "outlined",
+                "keyboardType": "text",
+                "value": 1,
+                "SelectItems": [
+                    {
+                        "label": "product 1",
+                        "value": 1
+                    },
+                    {
+                        "label": "product 2",
+                        "value": 2
+                    },
+                    {
+                        "label": "product 3",
+                        "value": 3
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Date",
+            "DateData": {
+                "key": "date",
+                "value" : "d13",
+                "label": "Select Date"
+            }
+        }
+    ]
+}

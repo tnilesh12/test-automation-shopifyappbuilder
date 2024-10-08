@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442572926909",
+    "project_id": "appbuilderprivate",
+    "storage_bucket": "appbuilderprivate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442572926909:android:d45d6132ad691fd9ceecd4",
+        "android_client_info": {
+          "package_name": "com.itg.readygolf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzIpfGpj1nAeoiEElSWxYe9ZZy0VPzNjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
