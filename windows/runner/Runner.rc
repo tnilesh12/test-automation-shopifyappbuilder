@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Itgeeks" "\0"
-            VALUE "FileDescription", "ITGeeks Mobilify" "\0"
+            VALUE "CompanyName", "NT" "\0"
+            VALUE "FileDescription", "It Geeks" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "ITGeeks Mobilify" "\0"
-            VALUE "LegalCopyright", "Copyright © 2023 Itgeeks. All rights reserved." "\0"
+            VALUE "InternalName", "It Geeks" "\0"
+            VALUE "LegalCopyright", "Copyright © 2024 NT. All rights reserved." "\0"
             VALUE "OriginalFilename", "renamedemo-win32.exe" "\0"
-            VALUE "ProductName", "ITGeeks Mobilify" "\0"
+            VALUE "ProductName", "It Geeks" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

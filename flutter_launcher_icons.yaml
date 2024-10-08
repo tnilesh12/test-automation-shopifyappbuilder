@@ -2,25 +2,53 @@ dev_dependencies:
   flutter_launcher_icons: "^0.13.1"
 
 flutter_launcher_icons:
-  #  image_path: "client_info/app_logo/icon-128x128.jpg"
-  image_path_android: "client_info/ITGeeks Mobilify/icon-1024x1024.jpg"
-  image_path_ios:  "client_info/ITGeeks Mobilify/icon-1024x1024.jpg"
+  #  image_path: "assets/app_logo/icon-128x128.jpg"
+  image_path_android: "assets/app_logos/icon-1024x1024.jpg"
+  image_path_ios:  "assets/app_logos/icon-1024x1024.jpg"
   android: true # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
-  #adaptive_icon_background: "client_info/images/christmas-background.jpg" # only available for Android 8.0 devices and above
-  #adaptive_icon_foreground: "client_info/images/icon-foreground-432x432.jpg" # only available for Android 8.0 devices and above
+  #adaptive_icon_background: "assets/images/christmas-background.jpg" # only available for Android 8.0 devices and above
+  #adaptive_icon_foreground: "assets/images/icon-foreground-432x432.jpg" # only available for Android 8.0 devices and above
   min_sdk_android: 21 # android min sdk min:16, default 21
   remove_alpha_ios: true
   background_color_ios: "#ffffff"
   web:
     generate: true
-    image_path:  "client_info/ITGeeks Mobilify/icon-1024x1024.jpg"
+    image_path:  "assets/app_logos/icon-1024x1024.jpg"
     background_color: "#ffffff"
     theme_color: "#ffffff"
   windows:
     generate: true
-    image_path:  "client_info/ITGeeks Mobilify/icon-1024x1024.jpg"
+    image_path:  "assets/app_logos/icon-1024x1024.jpg"
     icon_size: 48 # min:48, max:256, default: 48
   macos:
     generate: true
-    image_path:  "client_info/ITGeeks Mobilify/icon-1024x1024.jpg"
+    image_path:  "assets/app_logos/icon-1024x1024.jpg"
+
+
+# dev_dependencies:
+#   flutter_launcher_icons: "^0.13.1"
+
+# flutter_launcher_icons:
+#   #  image_path: "client_info/app_logo/icon-128x128.jpg"
+#   image_path_android: "client_info/com.itgeeks.mobilify/icon-1024x1024.jpg"
+#   image_path_ios:  "client_info/com.itgeeks.mobilify/icon-1024x1024.jpg"
+#   android: true # can specify file name here e.g. "ic_launcher"
+#   ios: true # can specify file name here e.g. "My-Launcher-Icon"
+#   #adaptive_icon_background: "client_info/images/christmas-background.jpg" # only available for Android 8.0 devices and above
+#   #adaptive_icon_foreground: "client_info/images/icon-foreground-432x432.jpg" # only available for Android 8.0 devices and above
+#   min_sdk_android: 21 # android min sdk min:16, default 21
+#   remove_alpha_ios: true
+#   background_color_ios: "#ffffff"
+#   web:
+#     generate: true
+#     image_path:  "client_info/com.itgeeks.mobilify/icon-1024x1024.jpg"
+#     background_color: "#ffffff"
+#     theme_color: "#ffffff"
+#   windows:
+#     generate: true
+#     image_path:  "client_info/com.itgeeks.mobilify/icon-1024x1024.jpg"
+#     icon_size: 48 # min:48, max:256, default: 48
+#   macos:
+#     generate: true
+#     image_path:  "client_info/com.itgeeks.mobilify/icon-1024x1024.jpg"

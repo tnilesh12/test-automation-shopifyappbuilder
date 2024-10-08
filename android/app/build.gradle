@@ -26,11 +26,6 @@ if (flutterVersionName == null) {
 }
 
 android {
-    def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
     namespace = "com.itgeeks.mobilify"
     compileSdkVersion 34//flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
@@ -59,22 +54,40 @@ if (keystorePropertiesFile.exists()) {
         versionName flutterVersionName
     }
 
-      signingConfigs {
+    def keystoreProperties = new Properties()
+    def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+    // Check if the keystore.properties file exists for local builds
+    if (keystorePropertiesFile.exists()) {
+        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+    } else {
+        // For GitHub Actions, use environment variables to set keystore info
+        keystoreProperties['storeFile'] = System.getenv('KEYSTORE_PATH') ?: 'android/app/key.jks'
+        keystoreProperties['storePassword'] = System.getenv('ANDROID_KEYSTORE_PASSWORD')
+        keystoreProperties['keyAlias'] = System.getenv('ANDROID_KEY_ALIAS')
+        keystoreProperties['keyPassword'] = System.getenv('ANDROID_KEY_PASSWORD')
+    }
+
+    signingConfigs {
         release {
-            // if (project.hasProperty('ANDROID_KEYSTORE_PASSWORD')) {
+            //  if (project.hasProperty('ANDROID_KEYSTORE_PASSWORD')) {
+            // Define the keystore properties from gradle.properties or GitHub Actions
             keyAlias keystoreProperties['keyAlias']
             keyPassword keystoreProperties['keyPassword']
-            storeFile file(keystoreProperties['storeFile'])
+            storeFile file(keystoreProperties['storeFile']) // This is where the path issue occurs
             storePassword keystoreProperties['storePassword']
-            // }
+            //  }
         }
     }
 
-        buildTypes {
+    buildTypes {
         release {
             signingConfig signingConfigs.release
-            minifyEnabled false // Set this to true if you want to enable shrinking and obfuscation
+            // Enable ProGuard to shrink the APK (optional)
+            minifyEnabled false
             shrinkResources false 
+            // ProGuard configuration files (optional)
+            // proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }

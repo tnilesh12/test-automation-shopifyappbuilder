@@ -3,7 +3,7 @@ package_rename_config:
   android:
     app_name: APP_NAME
     package_name: APP_PACKAGE_NAME
-    override_old_package: CURRENT_APP_PACKAGE_NAME
+    # override_old_package: CURRENT_APP_PACKAGE_NAME
 
   ios:
     app_name: APP_NAME
@@ -21,11 +21,11 @@ package_rename_config:
 
   windows:
     app_name: APP_NAME
-    organization: Itgeeks
-    copyright_notice: Copyright © 2023 Itgeeks. All rights reserved.
+    organization: NT
+    copyright_notice: Copyright © 2024 NT. All rights reserved.
     exe_name: renamedemo-win32
 
   macos:
     app_name: APP_NAME
     package_name: APP_PACKAGE_NAME
-    copyright_notice: Copyright © 2023 Itgeeks. All rights reserved.
+    copyright_notice: Copyright © 2024 NT. All rights reserved.

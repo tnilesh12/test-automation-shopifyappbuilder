@@ -86,7 +86,7 @@ flutter:
   assets:
     - assets/json/form.json
     - assets/app_logo/
-    - assets/cfg/app_settings.json
+    # - assets/cfg/app_settings.json
     - assets/images/
     - assets/
     # - assets/inUseJson/
