@@ -61,9 +61,27 @@ jobs:
         # with:
         #   flutter-version: 'stable'
 
-       # Install dependencies
+      # Install dependencies
       - name: Install dependencies
-        run: flutter pub get  
+        run: flutter pub get
+
+      # Get the latest Kotlin version
+      - name: Get latest Kotlin version
+        id: kotlin_version
+        run: |
+          LATEST_KOTLIN_VERSION=$(curl -s https://api.github.com/repos/JetBrains/kotlin/releases/latest | jq -r .tag_name)
+          echo "Latest Kotlin Version: $LATEST_KOTLIN_VERSION"
+          echo "LATEST_KOTLIN_VERSION=$LATEST_KOTLIN_VERSION" >> $GITHUB_ENV
+
+      # Update Kotlin version in build.gradle
+      - name: Update Kotlin Version in build.gradle
+        run: |
+          sed -i "s/ext.kotlin_version = '.*'/ext.kotlin_version = '${LATEST_KOTLIN_VERSION}'/" android/build.gradle
+
+      # Update Kotlin version in settings.gradle
+      - name: Update Kotlin Plugin Version in settings.gradle
+        run: |
+          sed -i "s/id 'org.jetbrains.kotlin.android' version '.*'/id 'org.jetbrains.kotlin.android' version '${LATEST_KOTLIN_VERSION}'/" android/settings.gradle  
 
       # Create directory structure for the client files
       - name: Create client directory
