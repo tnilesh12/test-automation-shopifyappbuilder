@@ -139,12 +139,12 @@ jobs:
           chmod +x client_config.sh  # Make the script executable
           ./client_config.sh "${{ github.event.inputs.app_name }}" "${{ github.event.inputs.new_package_name }}" "${{ github.event.inputs.current_package_name }}"
 
-      # Decode and setup keystore (from GitHub Secrets)
-      - name: Decode and setup keystore
-        env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-        run: |
-          echo $ANDROID_KEYSTORE_BASE64 | base64 --decode > android/app/key.jks
+      # # Decode and setup keystore (from GitHub Secrets)
+      # - name: Decode and setup keystore
+      #   env:
+      #     ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+      #   run: |
+      #     echo $ANDROID_KEYSTORE_BASE64 | base64 --decode > android/app/key.jks
 
       # Build APK
       - name: Build APK
