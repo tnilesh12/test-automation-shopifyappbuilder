@@ -1143,13 +1143,6 @@ packages:
       relative: true
     source: path
     version: "1.0.0+1"
-  readygolf:
-    dependency: "direct main"
-    description:
-      path: p1_readygolf
-      relative: true
-    source: path
-    version: "1.0.0+1"
   rxdart:
     dependency: transitive
     description:

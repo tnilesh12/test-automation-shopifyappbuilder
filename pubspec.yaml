@@ -42,8 +42,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   publicapp:
     path: publicapp
-  readygolf:
-    path: p1_readygolf
+  # readygolf:
+  #   path: p1_readygolf
   # onleorganic:
   #   path: p2_onleorganic
   shopify_code:

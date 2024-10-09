@@ -9,7 +9,7 @@ import 'package:shopify_code/util/firebase_cloud_message_util.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:publicapp/main.dart' as publicapp;
-import 'package:readygolf/main.dart' as readygolf;
+// import 'package:readygolf/main.dart' as readygolf;
 import 'package:shopify_code/app_config/app_config.dart';
 import 'package:shopify_code/util/utils.dart';
 import '/views/common_screens/network_error_screen.dart';
@@ -77,11 +77,11 @@ void main() async {
     if (AppConfig.APP_NAME == "ITGeeks Mobilify") {
       runApp(MyAppBarCode());
       // /*
-    } else if (AppConfig.APP_NAME == "Ready Golf") {
-      await SystemChrome.setPreferredOrientations(<DeviceOrientation>[
-        DeviceOrientation.portraitUp,
-        DeviceOrientation.portraitDown
-      ]).then((_) => runApp(readygolf.MyApp1()));
+    // } else if (AppConfig.APP_NAME == "Ready Golf") {
+    //   await SystemChrome.setPreferredOrientations(<DeviceOrientation>[
+    //     DeviceOrientation.portraitUp,
+    //     DeviceOrientation.portraitDown
+    //   ]).then((_) => runApp(readygolf.MyApp1()));
     // } else if (AppConfig.APP_NAME == "Onleorganic") {
     //   await SystemChrome.setPreferredOrientations(<DeviceOrientation>[
     //     DeviceOrientation.portraitUp,
