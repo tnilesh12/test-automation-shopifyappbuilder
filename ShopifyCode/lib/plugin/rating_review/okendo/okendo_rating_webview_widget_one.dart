@@ -90,12 +90,12 @@ class _OkendoRatingWebViewWidgetOneState
       // // } else {
       _webViewController.loadUrl(
           urlRequest: URLRequest(
-              url: Uri.parse(ApiConst.okendoReviewSecond
+              url: WebUri.uri(Uri.parse(ApiConst.okendoReviewSecond
                   .replaceAll("{product_id}", productId)
                         .replaceAll(
                             "{subscriber_id}",
                             globals.plugins[PluginsEnum.OKENDO_REVIEW.name]
-                                .secrets.subscriberId))));
+                                .secrets.subscriberId)))));
       // // }
     } catch (e) {
       debugPrint('my webview Error loading content: $e');

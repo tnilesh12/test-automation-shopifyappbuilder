@@ -39,6 +39,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   shopify_code:
     path: ../ShopifyCode
+  flutter_barcode_scanner_master:
+    path: ../flutterBarcodeScannerMaster
 
 
 dev_dependencies:

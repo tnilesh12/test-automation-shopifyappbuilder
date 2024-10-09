@@ -81,7 +81,7 @@ class _LooxRatingWebViewWidgetThreeState extends State<LooxRatingWebViewWidgetTh
       // // debugPrint('my webview2${customSectionData.contentType}');
       // // } else {
         _webViewController.loadUrl(
-            urlRequest: URLRequest(url: Uri.parse(ApiConst.looxAllReview.replaceAll("{product_id}", productId))));
+            urlRequest: URLRequest(url: WebUri.uri(Uri.parse(ApiConst.looxAllReview.replaceAll("{product_id}", productId)))));
       // // }
     } catch (e) {
       debugPrint('my webview Error loading content: $e');

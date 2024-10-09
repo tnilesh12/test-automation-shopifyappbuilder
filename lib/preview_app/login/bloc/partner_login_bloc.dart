@@ -9,7 +9,8 @@ import 'package:shopify_code/repository/ApiResponse.dart';
 import 'package:shopify_code/repository/api_repository_without_base_url.dart';
 import 'package:shopify_code/session/session.dart';
 import 'package:shopify_code/util/encrypt_decrypt.dart';
-import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
+// import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
+import 'package:flutter_barcode_scanner_master/flutter_barcode_scanner.dart';
 part 'partner_login_event.dart';
 part 'partner_login_state.dart';
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
+// import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
+import 'package:flutter_barcode_scanner_master/flutter_barcode_scanner.dart';
 
 class BarcodeScanner extends StatelessWidget {
   const BarcodeScanner({Key? key}) : super(key: key);

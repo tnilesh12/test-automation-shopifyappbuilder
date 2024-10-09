@@ -48,6 +48,8 @@ dependencies:
   #   path: p2_onleorganic
   shopify_code:
     path: ShopifyCode
+  flutter_barcode_scanner_master:
+    path: flutterBarcodeScannerMaster
 
   flutter_launcher_icons: ^0.13.1
   # flutter pub run flutter_launcher_icons
