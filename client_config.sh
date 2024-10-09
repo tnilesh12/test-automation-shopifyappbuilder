@@ -27,7 +27,7 @@ LOCAL_SPLASH_LOGO_PATH="$LOCAL_CLIENT_PATH/ic_app_icon.png"
 PROJECT_SPLASH_LOGO_PATH="$PROJECT_PATH/assets/images/ic_app_icon.png"
 
 LOCAL_APP_CONFIG_PATH="$LOCAL_CLIENT_PATH/app_config.dart"
-PROJECT_APP_CONFIG_PATH="$PROJECT_PATH/lib/app_config/app_config.dart"
+PROJECT_APP_CONFIG_PATH="$PROJECT_PATH/ShopifyCode/lib/app_config/app_config.dart"
 
 LOCAL_INFO_PLIST_PATH="$LOCAL_CLIENT_PATH/Info.plist"
 PROJECT_INFO_PLIST_PATH="$PROJECT_PATH/ios/Runner/Info.plist"
