@@ -1139,7 +1139,7 @@ packages:
   publicapp:
     dependency: "direct main"
     description:
-      path: publicapp
+      path: PublicApp
       relative: true
     source: path
     version: "1.0.0+1"

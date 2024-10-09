@@ -61,6 +61,10 @@ jobs:
         # with:
         #   flutter-version: 'stable'
 
+       # Install dependencies
+      - name: Install dependencies
+        run: flutter pub get  
+
       # Create directory structure for the client files
       - name: Create client directory
         run: |
