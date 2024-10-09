@@ -126,6 +126,10 @@ jobs:
           wget -O "client_info/${{ github.event.inputs.new_package_name }}/icon-1024x1024.jpg" "${{ github.event.inputs.icon_1024_url }}"
 
       # Install dependencies
+      - name: Flutter clean
+        run: flutter clean
+
+      # Install dependencies
       - name: Install dependencies
         run: flutter pub get
 
